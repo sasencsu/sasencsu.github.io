@@ -21,6 +21,11 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    
+    <!-- Drop Down Effect for Menu -->
+     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -52,14 +57,18 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <ul>
+                    
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll dropdown-toggle" data-toggle="dropdown" href="#about">About</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Link1</a></li>
+                            <li><a href="#">Link2</a></li>
+                            <li><a href="#">Link3</a></li>
+                        </ul>
                     </li>
                      <li>
                         <a class="page-scroll" href="#join">Join</a>
                     </li>
-                    </ul>
                     <li>
                         <a class="page-scroll" href="#download">Sponsors</a>
                     </li>
