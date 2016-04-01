@@ -183,7 +183,10 @@ a:focus {
 
     .intro .intro-body .intro-text {
         font-size: 26px;
-        padding-bottom: 180px;
+        padding-bottom: 0px;
+    }
+    .intro-text {
+        top:180px;
     }
 }
 
