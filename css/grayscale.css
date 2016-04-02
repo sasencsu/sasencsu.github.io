@@ -353,7 +353,7 @@ ul.banner-social-buttons {
     float: left;
     width:  300px;
     height: 150px;
-    margin-right: 50px;
+    padding-right: 100px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
