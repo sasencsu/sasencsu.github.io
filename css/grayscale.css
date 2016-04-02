@@ -193,6 +193,7 @@ a:focus {
 .btn-circle {
     width: 70px;
     height: 70px;
+    padding-top: 50px;
     margin-top: 15px;
     padding: 7px 16px;
     border: 2px solid #fff;
