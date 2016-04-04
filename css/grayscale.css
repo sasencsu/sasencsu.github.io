@@ -359,6 +359,12 @@ ul.banner-social-buttons {
     background-size:     cover;
 }
 
+
+.about {
+float: right;    
+}
+
+
 .calendar {
     
  padding-top: 100px;   
